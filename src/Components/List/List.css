@@ -1,0 +1,23 @@
+.list-app {
+	height: 100%;
+}
+
+.list-wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-wrapper ul {
+	list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+	.list-wrapper {
+		justify-content: flex-start;
+		align-items: flex-start;
+		height: auto;
+	}
+}
